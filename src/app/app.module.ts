@@ -7,10 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
+import { VideoShopComponent } from './video-shop/video-shop.component';
+import { NotesViewComponent } from './notes-view/notes-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideoShopComponent,
+    NotesViewComponent
   ],
   imports: [
     BrowserModule,

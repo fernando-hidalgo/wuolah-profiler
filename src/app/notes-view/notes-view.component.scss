@@ -1,0 +1,87 @@
+.content {
+    display: flex;
+    margin: 60px auto 32px;
+    padding: 0 16px;
+    max-width: 85%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+
+    /*Angular Material CSS Modifications*/
+    .mat-expansion-panel-header {
+        height: fit-content;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .acronym {
+        padding-left: 20%;
+    }
+
+    .courses {
+        padding-right: 11%;
+    }
+
+    .content {
+        display: flex;
+        max-width: 100% !important;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*Angular Material CSS Modifications*/
+.mat-tab-group {
+    width: 100%;
+}
+
+.mat-expansion-panel-header-description,
+.mat-expansion-panel-header-title {
+    flex-basis: 50%;
+    min-width: 0;
+    /*display: block;*/
+}
+
+
+/*Video Ad Below*/
+.video-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+
+    &__container {
+        border: 5px dashed #1976d2;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    &__title {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    &__text {
+        text-align: justify;
+    }
+
+    &__button {
+        display: block;
+        margin-top: 10px;
+        /* Ajusta según tus necesidades */
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1976d2;
+        color: white;
+        border-radius: 5px;
+        width: 30%;
+        font-size: medium;
+
+        &:hover {
+            background-color: #195ea2;
+        }
+    }
+}
