@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    margin: 70px auto 32px;
+    padding: 0 16px;
+    max-width: 85%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pack-cards{
+    display: flex;
+    gap: 15px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+h2{
+    margin: 0 0 0
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.mat-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -9,6 +9,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
 import { VideoShopComponent } from './video-shop/video-shop.component';
 import { NotesViewComponent } from './notes-view/notes-view.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NotesViewComponent } from './notes-view/notes-view.component';
     BrowserAnimationsModule,
     MatExpansionModule,
     MatTabsModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
